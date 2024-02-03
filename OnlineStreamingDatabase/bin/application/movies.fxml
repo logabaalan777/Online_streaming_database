@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="683.0" prefWidth="918.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.moviescontroller">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="693.0" prefWidth="928.0" style="-fx-background-color: black;">
+         <children>
+            <AnchorPane layoutX="245.0" prefHeight="72.0" prefWidth="674.0" style="-fx-background-color: black;">
+               <children>
+                  <TextField alignment="TOP_CENTER" layoutX="67.0" layoutY="20.0" promptText="search movie.." style="-fx-background-color: white;">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </TextField>
+                  <FontAwesomeIcon fill="WHITE" glyphName="SEARCH" layoutX="23.0" layoutY="41.0" size="2em" />
+                  <Button fx:id="hbutton" layoutX="514.0" layoutY="3.0" mnemonicParsing="false" onAction="#toHome" onMouseClicked="#toHome" prefHeight="54.0" prefWidth="141.0" style="-fx-background-radius: 5px; -fx-background-color: black;" text="HOME" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Button>
+                  <FontAwesomeIcon fill="WHITE" glyphName="HOME" layoutX="503.0" layoutY="44.0" size="2em" text="" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutY="122.0" prefHeight="562.0" prefWidth="919.0">
+               <children>
+                  <ImageView fitHeight="197.0" fitWidth="160.0" layoutX="34.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/221109-Leo%20Vijay%20Sanjay%20Dutt%20Poster.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="197.0" fitWidth="133.0" layoutX="205.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/med_spiderman_no_way_home_ver3.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="197.0" fitWidth="188.0" layoutX="378.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/thor.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="197.0" fitWidth="188.0" layoutX="552.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/avengersendgame.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="197.0" fitWidth="188.0" layoutX="32.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/med_black_panther_ver3.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="197.0" fitWidth="188.0" layoutX="204.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/hellbound.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="197.0" fitWidth="188.0" layoutX="378.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/blackwidow_lob_crd_06.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="197.0" fitWidth="188.0" layoutX="552.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/iron%20man.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="53.0" layoutY="240.0" mnemonicParsing="false" style="-fx-background-color: grey; -fx-background-radius: 10px;" text="watch now" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="231.0" layoutY="240.0" mnemonicParsing="false" style="-fx-background-color: grey; -fx-background-radius: 10px;" text="watch now" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="400.0" layoutY="240.0" mnemonicParsing="false" style="-fx-background-color: grey; -fx-background-radius: 10px;" text="watch now" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="580.0" layoutY="240.0" mnemonicParsing="false" style="-fx-background-color: grey; -fx-background-radius: 10px;" text="watch now" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="60.0" layoutY="503.0" mnemonicParsing="false" style="-fx-background-color: grey; -fx-background-radius: 10px;" text="watch now" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="231.0" layoutY="503.0" mnemonicParsing="false" style="-fx-background-color: grey; -fx-background-radius: 10px;" text="watch now" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="400.0" layoutY="503.0" mnemonicParsing="false" style="-fx-background-color: grey; -fx-background-radius: 10px;" text="watch now" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="580.0" layoutY="503.0" mnemonicParsing="false" style="-fx-background-color: grey; -fx-background-radius: 10px;" text="watch now" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="197.0" fitWidth="188.0" layoutX="736.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/gog.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="764.0" layoutY="240.0" mnemonicParsing="false" style="-fx-background-color: grey; -fx-background-radius: 10px;" text="watch now" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="197.0" fitWidth="188.0" layoutX="736.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/ant%20man.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="764.0" layoutY="503.0" mnemonicParsing="false" style="-fx-background-color: grey; -fx-background-radius: 10px;" text="watch now" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn" layoutX="882.0" layoutY="529.0" mnemonicParsing="false" style="-fx-background-color: black;" />
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="106.0" prefWidth="196.0">
+               <children>
+                  <ImageView fitHeight="119.0" fitWidth="240.0" layoutX="2.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../Downloads/Logos-Readability-Netflix-logo.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

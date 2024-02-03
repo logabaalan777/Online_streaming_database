@@ -1,0 +1,21 @@
+.right-form{
+	-fx-background-color: linear-gradient(to bottom right, #38b0d4, #16cbfc)
+}
+
+.text-field {
+    -fx-background-color: #ffffff; /* Background color */
+    -fx-border-color: #000000; /* Border color */
+    -fx-border-width: 1px; /* Border width */
+    -fx-border-radius: 5px; /* Border radius */
+    -fx-padding: 5px; /* Padding */
+}
+
+.text-field:focused {
+    -fx-border-color: #0078d4; /* Border color when focused */
+}
+
+.text-field:disabled {
+    -fx-opacity: 0.5; /* Opacity when disabled */
+}
+
+
